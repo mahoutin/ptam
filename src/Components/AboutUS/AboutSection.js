@@ -1,12 +1,9 @@
 import React from "react";
 
 //components
-import w1 from "../../Assets/w1.jpeg";
-import w2 from "../../Assets/w2.jpeg";
-import w3 from "../../Assets/w3.jpeg";
-import w4 from "../../Assets/w4.jpeg";
+import w1 from "../../Assets/group7.svg";
 import { HashLink as Link } from "react-router-hash-link";
-
+import { Button, UncontrolledCollapse, Card, CardBody } from "reactstrap";
 //styled
 import {
   AboutSessionsContainer,
@@ -26,49 +23,82 @@ const AboutSection = () => {
         <SessionHeader>Who are we?</SessionHeader>
         <AboutSessionDescription>
           <AboutSessionDescriptionspan>
-            FKL Cleaning Service and Sells LLC{" "}
+            At PTAM cleaning Services LLC{" "}
           </AboutSessionDescriptionspan>{" "}
-          provides Commercial/Residential Cleaning Services in Westbrook, ME,
-          Portland, ME,South-Port,ME,Gorham,ME,Scarborough
-          ,ME,Saco,ME,Biddeford,ME,Yarmouth,ME,Cumberland,ME, and Surrounding
-          areas. We pride ourselves on providing professional customer care.
-          Making our customers happy is our Happiness. Since opening our doors,
-          we've been committed to providing service of the highest quality,
-          paying particular attention to working efficiently while keeping the
-          lines of communication with our clients clear and concise. Our mission
-          is simple: to provide high-quality services in a timely manner. Our
-          team caters to each project's specific needs to ensure excellence. We
-          hope you'll find what you're looking for. For more information or
-          general inquiries, feel free to get in touch today.
+          We do not only do Cleaning services <b>we like to help out</b> in the
+          community making a positive change. In Maine we have been receiving
+          more and more immigrants who live in houses for the low income. they
+          may not be able to support a cleaning company.{" "}
+          <b>We help the elderly community</b> with cleaning for an affordable
+          price or sometimes probono if they find themselves un able to do it to
+          save time and to stay health. <br />
+          We also know that getting to a level of cleaning can be challenging.{" "}
           <br />
-          <AboutSessionDescriptionspan>
-            Our Guarantee:
-          </AboutSessionDescriptionspan>{" "}
-          Expert quality every time. We don't consider a job completely executed
-          unless there's happiness across our client's face.
+          <b>We help you get some free time</b> out of your busty day and
+          differnet responsabilities. Daily cleaning for private residential
+          homes.<b> We work with you</b> to create your own cleaning plan to get
+          consistent results that meet your needs.{" "}
+          <b>we provide your most important space</b> with the quality cleaning
+          it deserves.
+          <Button
+            color="primary"
+            id="toggler"
+            style={{
+              backgroundColor: "transparent",
+              border: "none",
+              color: "var(--primary-color)",
+              textDecoration: "underline",
+              outline: "none",
+              padding: 0
+            }}
+          >
+            Read more
+          </Button>
+          <UncontrolledCollapse toggler="#toggler">
+            <Card style={{
+              backgroundColor: "transparent",
+              border: "none",
+              outline: "none",
+            }}>
+              <CardBody>
+                We clean houses, condos and aprtments. <br />
+                Our services are : Regular cleaning, occasional cleaning,
+                moveout and move in cleaning, special events cleaning and
+                apartemnet cleaning We do not only do Cleaning services
+                <br />
+                We like to help out in the community making a positive change.
+                In Maine we have been receiving more nad more immigrants who
+                live in houses for the low income. they may not be able to
+                support a cleaning company. <br />
+                We help the elderly community with cleaning for an affordable
+                price or sometimes probono if they find themselves un able to do
+                it to save time and to stay health. We also know that getting to
+                a levcel of cleaning can be challenging. We help you get some
+                free time out of your busty day and differnet responsabilities.
+                Daily cleaning for private residential homes We work with you to
+                create your own cleaning plan to get consistent results that
+                meet your needs. <br />
+                We provide your most important space with the quality cleaning
+                it deserves. We clean houses, condos and aprtments. Our services
+                are : Regular cleaning, occasional cleaning, moveout and move in
+                cleaning, special events cleaning and apartemnet cleaning.
+                <br />
+              </CardBody>
+            </Card>
+          </UncontrolledCollapse>
         </AboutSessionDescription>
         <Link to="#contact" className="quotelinks quotecollinks quote">
           Get a quote
         </Link>
       </WhySessionsContainerHalf>
       <WhySessionsContainerHalf>
-        <WhySessionsContainerHalfDivider>
-          <WhyImageWraper>
-            <img src={w1} alt="cleaning" />
-          </WhyImageWraper>
-
-          <WhyImageWraper>
-            <img src={w2} alt="cleaning" />
-          </WhyImageWraper>
-        </WhySessionsContainerHalfDivider>
-        <WhySessionsContainerHalfDivider>
-          <WhyImageWraper>
-            <img src={w3} alt="cleaning" />
-          </WhyImageWraper>
-
-          <WhyImageWraper>
-            <img src={w4} alt="cleaning" />
-          </WhyImageWraper>
+        <WhySessionsContainerHalfDivider margintop style={{
+          backgroundColor:"var(--primary-color)",
+          borderRadius: "16px"
+        }}>
+   
+       <img src={w1} alt="cleaning"/>
+  
         </WhySessionsContainerHalfDivider>
       </WhySessionsContainerHalf>
     </AboutSessionsContainer>

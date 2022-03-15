@@ -13,10 +13,10 @@ const IntroSection = () => {
     <FooterSectionWrapper>
         <FooterHalfWrapper>
             <FooterHeader>Contact Us</FooterHeader>
-            <FooterDes>📍 FKLCLEANINGSERVICE <br/>199 Forest St, Westbrook, ME 04092</FooterDes>
-            <FooterDes>📞 (207) 409-5286</FooterDes>
-            <FooterDes>📧 fklcleaningservice@gmail.com</FooterDes>
-            <FooterDes>Follow us on facebook: <a href="https://www.facebook.com/FKL-Cleaning-Services-103027622311539" className="sociallink" target="_blank" rel="noopener noreferrer">@FKL Cleaning Service and Sells LLC</a></FooterDes>
+            <FooterDes>📍 PTAMCLEANINGSERVICE <br/>18 Pin Oak Drive, Scarbourough, ME 04074</FooterDes>
+            <FooterDes>📞 (207) 810-9232</FooterDes>
+            <FooterDes>📧 support@ptamcleaning.com</FooterDes>
+            <FooterDes>Follow us on facebook: <a href="https://www.facebook.com/PTAM-Cleaning-Services-103027622311539" className="sociallink" target="_blank" rel="noopener noreferrer">@FKL Cleaning Service and Sells LLC</a></FooterDes>
         </FooterHalfWrapper>
         <FooterHalfWrapper>
             <FooterHeader>Our Services</FooterHeader>

@@ -49,6 +49,22 @@ export const WhySessionsContainerHalfDivider = styled.div`
   justify-content: center;
   width: 100%;
   height: 50%;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: content;
+  }
+ 
+  ${(props) =>
+    props.margintop &&
+    css`
+   
+      @media only screen and (max-width: 426px) {
+    margin-top: 24px;
+  }
+    `}
+   
 `;
 export const WhyImageWraper = styled.div`
   display: flex;
