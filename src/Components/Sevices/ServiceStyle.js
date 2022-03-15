@@ -24,18 +24,18 @@ export const ServiceWrapper = styled.div`
   height: fit-content;
   margin: 24px 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(252px, 1fr));
-  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 48px;
 `;
 
 export const ServiceWrapperItem = styled.div`
- background-color: #EAECEF;
-  padding: 16px 8px;
+ background-color: #090C22;
+ color: white;
+  padding: 16px 24px;
   font-size: 30px;
-  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   border-radius: 8px;
   height: 322px;

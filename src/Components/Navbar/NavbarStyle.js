@@ -14,15 +14,16 @@ export const HeaderLogoContainer = styled.div`
   position: relative;
   z-index: 100;
   color:var(--primary-white);
-  width: 50px;
+  width: 100px;
   height: 50px;
+  border-radius:12px;
 
 
 
   img{
     width: 100%;
     height: 100%;
-    border-radius:4px;
+    border-radius:12px;
     object-fit: contain;
   }
 

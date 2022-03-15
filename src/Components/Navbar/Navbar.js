@@ -32,7 +32,7 @@ const NavBar = () => {
         onClose={() => setOpen(false)}
       >
         <Drawer.Header>
-          <Drawer.Title>FKL</Drawer.Title>
+          <Drawer.Title>PTAM</Drawer.Title>
         </Drawer.Header>
         <Drawer.Body>
           <NavDrawerStyle navbar>
@@ -72,7 +72,7 @@ const NavBar = () => {
           <HeaderLogoContainer>
             <img src={logo} alt="cleaning" />
           </HeaderLogoContainer>
-          <HeaderLogoContainerTitle ><p>FKL Cleaning Service <br/>and Sells LLC</p></HeaderLogoContainerTitle >
+          <HeaderLogoContainerTitle ><p>PTAM Cleaning <br/>Service LLC</p></HeaderLogoContainerTitle >
 
         </NavbarBrandStyle>
         <NavbarTogglerStyle onClick={() => setOpen(true)} />

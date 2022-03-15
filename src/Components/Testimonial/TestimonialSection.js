@@ -1,34 +1,77 @@
 import React from "react";
 
 //components
-import TestProfile from "../../Assets/christina.jpeg"
+
 
 //styled
-import { SessionDescription,SessionHeader,Sessionsrate, SessionsNametwo,SessionName,SessionsTitle ,TestimonialSessionsContainerDes,TestimonialSessionsContainer,TestimonialSessionsContainerFirst,TestimonialSessionsContainerImg } from "../Testimonial/TestimonialStyle";
-
-
+import {
+  SessionDescription,
+  SessionHeader,
+  Sessionsrate,
+  SessionsNametwo,
+  SessionName,
+  SessionsTitle,
+  TestimonialSessionsContainerDes,
+  TestimonialSessionsContainer,
+  TestimonialSessionsContainerFirst,
+  TestimonialStepContainer, 
+  TestimonialStepWrapper,
+  TestimonialStepWrapperDes,
+  TestimonialStepWrapperTitle
+} from "../Testimonial/TestimonialStyle";
 
 const TestimonialSection = () => {
   return (
     <TestimonialSessionsContainer>
-        <TestimonialSessionsContainerFirst>
-            <TestimonialSessionsContainerImg>
-            <img src={TestProfile} alt="customer profile"/>
-            </TestimonialSessionsContainerImg>
-            <TestimonialSessionsContainerDes>
-                <SessionsTitle>Testimonials</SessionsTitle>
-                <SessionHeader>What customers say about us?</SessionHeader>
-                <SessionDescription>
-                I’m an office worker who does not have free time to clean my house. I have been using FKL Cleaning Services for many years. Now they are serving my office too and I am very satisfied with the cleaning Services provided by FKL Cleaning Service and Sells. Thanks.                 </SessionDescription>
-                <SessionName>Alison Walton</SessionName>
-                <SessionsNametwo>PROFESSIONAL DEVELOPMENT</SessionsNametwo>
-                <Sessionsrate>3.000+ Testimonials ⭐️ ⭐️ ⭐️ ⭐️ ⭐️ </Sessionsrate> 
-            </TestimonialSessionsContainerDes>
+      <TestimonialSessionsContainerFirst>
+        <TestimonialSessionsContainerDes>
+          <SessionsTitle>✊ HOW WE WORKS</SessionsTitle>
+          <SessionHeader>
+            Some of the ways of working with Ptam cleaning
+          </SessionHeader>
+          <SessionDescription>
+           We strive to simplify the process of cleaning your home and working space as easy as possible.{" "}
+           <TestimonialStepContainer>
+            <TestimonialStepWrapper>
+              <TestimonialStepWrapperTitle>1</TestimonialStepWrapperTitle>
+            <SessionName>
+              Request your service
+            </SessionName>
+            <TestimonialStepWrapperDes>
+              Simpli
+            </TestimonialStepWrapperDes>
+            </TestimonialStepWrapper>
+            <TestimonialStepWrapper>
+            <TestimonialStepWrapperTitle>2</TestimonialStepWrapperTitle>
+            <SessionName>
+              Schedule your service
+            </SessionName>
+            <TestimonialStepWrapperDes>
+              Simpli
+            </TestimonialStepWrapperDes>
+            </TestimonialStepWrapper>
+            <TestimonialStepWrapper>
+            <TestimonialStepWrapperTitle>3</TestimonialStepWrapperTitle>
+            <SessionName>
+              Sit Back and Relax
+            </SessionName>
+            <TestimonialStepWrapperDes>
+              Simpli
+            </TestimonialStepWrapperDes>
+            </TestimonialStepWrapper>
+           </TestimonialStepContainer>
+          </SessionDescription>
+          {/* <SessionName>
 
-        </TestimonialSessionsContainerFirst>
+          </SessionName>
+          <SessionsNametwo>
 
+          </SessionsNametwo> */}
+          {/* <Sessionsrate>3.000+ Testimonials ⭐️ ⭐️ ⭐️ ⭐️ ⭐️ </Sessionsrate> */}
+        </TestimonialSessionsContainerDes>
+      </TestimonialSessionsContainerFirst>
     </TestimonialSessionsContainer>
   );
 };
 
-export default TestimonialSection ;
+export default TestimonialSection;

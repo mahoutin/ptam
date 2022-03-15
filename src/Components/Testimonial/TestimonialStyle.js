@@ -146,4 +146,49 @@ top:-50px;
 margin-top: 0px;
   }
 `
+export const TestimonialStepContainer = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 16px 0;
 
+@media only screen and (min-width: 760px) {
+flex-direction: row;
+  }
+`
+
+export const TestimonialStepWrapper = styled.div`
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+padding:0 16px;
+border: 1px solid var( --primary-basic-grey);
+border-radius: 12px;
+width: 100%;
+height: 160px;
+margin: 16px 0;
+@media only screen and (min-width: 760px) {
+  width: 33.33%;
+  margin:16px 0;
+  margin-right: 24px;
+  }
+
+`
+export const TestimonialStepWrapperTitle = styled.div`
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: var(--primary-color);
+  color: #fff;
+  margin-bottom: 8px;
+  font-weight: 600;
+`
+
+export const TestimonialStepWrapperDes = styled.div`
+  font-size: 14px;
+`

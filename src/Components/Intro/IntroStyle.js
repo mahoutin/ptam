@@ -3,12 +3,11 @@ import styled, { css } from "styled-components";
 export const IntroContainer = styled.div`
   align-items: center;
   height: fit-content;
-  background: linear-gradient(180deg, #3498DB 51.04%, rgba(52, 152, 219, 0) 100%);
+  background: var(--primary-color);
   padding: 0 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-
 
   @media only screen and (min-width: 1024px) {
     padding: 0 100px;
@@ -34,29 +33,26 @@ export const IntroSessionsHalfContainer = styled.div`
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 24px 0;
+  padding-top: 24px;
   width: 100%;
-  height:fit-content;
-  img{
-      width: 80%;
-      height: 80%;
-      object-fit: contain;
-      margin: 0 auto;
+  height: fit-content;
+  img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    margin: 0 auto;
   }
   @media only screen and (min-width: 1024px) {
     width: 50%;
     height: 100%;
-    img{
-      width: 550px;
+    img {
+      width: fit-content;
       height: 550px;
-      object-fit: contain;
+      object-fit: cover;
       margin: 0 auto;
+    }
   }
-  }
-
-
-`
-
+`;
 
 export const IntoHeader = styled.div`
   font-size: var(--header-sm);
@@ -71,7 +67,7 @@ export const IntoHeader = styled.div`
     css`
       color: var(--header-text-color);
     `}
-    @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 320px) {
     font-size: var(--header-xs);
   }
   @media only screen and (min-width: 1024px) {
@@ -80,7 +76,7 @@ export const IntoHeader = styled.div`
   }
 `;
 export const IntoDescription = styled.div`
-  font-size: var(--body-lg);
+  font-size: var(--body-md);
   font-family: var(--Body-font-family);
   line-height: 130%;
   font-weight: var(--body-regular-weight);
@@ -89,28 +85,26 @@ export const IntoDescription = styled.div`
   width: 100%;
 
   @media only screen and (min-width: 1024px) {
-    width: 70%;
+    width: 100%;
   }
 `;
 export const IntoButtonContainer = styled.div`
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-bottom: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
 
-@media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
     justify-content: flex-start;
   }
-
-
-`
+`;
 
 // export const IntroLogoContainer = styled.div`
 //   width: fit-content;
 //   height: 100%;
 //   margin-bottom: 24px;
- 
+
 //   @media only screen and (max-width: 320px) {
 //     margin-bottom: 0px;
 //     width: 50px;

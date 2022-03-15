@@ -251,8 +251,8 @@ ${(props) =>
    ${(props) =>
     props.servicebutton &&
     css`
-      background-color: #f4bf00;
-      color: #000;
+      background-color: var(--success-color);
+      
 
       /* &:hover {
         text-decoration: none;
@@ -260,6 +260,9 @@ ${(props) =>
         transition: 0.2s;
         border: 2px solid var(--primary-color);
       }     */
+      a{
+        color: #fff !important;
+      }
     `} 
 
 

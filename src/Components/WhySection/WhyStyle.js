@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 export const WhyContainer = styled.div`
   width: 100%;
   align-items: center;
-  background: #EAECEF;
+  /* background: #EAECEF; */
   padding: 0 8px;
   display: flex;
   align-items: center;
@@ -15,10 +15,14 @@ export const WhySessionsContainer = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  margin: 72px 0px;
+  margin: 0 0 72px 0px;
   max-width: 1110px;
+  padding: 24px;
+  background-color: var(--primary-color);
+  border-radius: 16px;
   @media only screen and (min-width: 760px) {
     flex-direction: row;
+    padding-bottom: 0;
   }
 `;
 export const WhySessionsContainerHalf = styled.div`
@@ -31,7 +35,11 @@ export const WhySessionsContainerHalf = styled.div`
   @media only screen and (min-width: 1024px) {
     width:50%;
   }
-
+img{
+  padding-top: 20px;
+  width:60%;
+ 
+}
  
 `
 export const WhySessionsContainerHalfDivider = styled.div`
@@ -64,4 +72,11 @@ export const WhyImageWraper = styled.div`
     @media only screen and (min-width: 1024px) {
         padding: 25px;
   }
+`
+export const WhyCheckWraper = styled.div`
+  margin:16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 `

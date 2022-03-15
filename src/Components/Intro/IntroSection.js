@@ -1,7 +1,7 @@
 import React from "react";
 
 //components
-import HeroPicture from "../../Assets/Group8h.png"
+import HeroPicture from "../../Assets/Group26.svg"
 import { HashLink as Link } from "react-router-hash-link";
 
 //styled
@@ -14,11 +14,10 @@ const IntroSection = () => {
     <IntroSessionsContainer>
         <IntroSessionsHalfContainer>
             <IntoHeader>
-            Clean Home. Professional Service. Fair Price
+            Make your home and office as comfortable.
             </IntoHeader>
             <IntoDescription>
-            We are a certified company. We Provide the best cleaning service for you and your company.
-            </IntoDescription>
+            We provide cleaning services for your homes, apartements, offices and various services that require professionsal cleaning. Our goal is to provide high proffestional cleaning solutions to make your living /working space clean and comfortable.            </IntoDescription>
             <IntoButtonContainer>
             <Link to="#contact" className="quotelinks linkbutton">
                  Get a quote

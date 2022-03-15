@@ -11,7 +11,7 @@
   /*------------ COLORS ---------------*/
 
   /* primary color 500 Base */
-  --primary-color: #3498db;
+  --primary-color: #2a73f1;
 
   /* Primary 800 HeaderText */
   --header-text-color: #1a014c;
@@ -40,7 +40,7 @@
   --primary-secondary-grey: #e5e5ea;
 
   /* Success */
-  --success-color: #60d280;
+  --success-color: #35BB6F;
 
   /* Warning */
   --warning-color: #ffba30;
@@ -180,8 +180,9 @@
   text-decoration: none;
 }
 .quotecollinks {
-  background-color: var(--primary-color);
+  background-color: var(--success-color);
   color: var(--primary-white);
+  border: 2px solid var(--success-color);
 }
 .quotecollinks:hover,
 .quotecollinks:active,
@@ -192,7 +193,15 @@
   background-color: var(--primarry-white);
   text-decoration: none;
 }
-
+.quotecollinks2:hover,
+.quotecollinks2:active,
+.quotecollinks2:focus {
+  text-decoration: none;
+  color: var(--primary-white);
+  border: 2px solid var(--primary-white);
+  background-color: var(--primarry-color);
+  text-decoration: none;
+}
 .linkbutton {
   padding: 24px 16px;
 }
@@ -200,6 +209,7 @@
 .quote {
   width: 100%;
   padding: 24px 16px;
+  margin-top: 24px;
  
 }
 
