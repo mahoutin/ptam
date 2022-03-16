@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 export const FooterSectionContainer = styled.div`
   width: 100%;
   align-items: center;
-  background: #161616;
+  background: #090C22;
   padding: 0 8px;
   display: flex;
   align-items: center;

@@ -1,17 +1,9 @@
 import React from "react";
 
 //components
-import Janitory from "../../Assets/group1.svg"
-import green from "../../Assets/group2.svg"
-import carpet from "../../Assets/group3.svg"
-import disinfect from "../../Assets/desinfect.jpeg"
-import Airbnb from "../../Assets/aibnb.jpeg"
-import commercial from "../../Assets/commercial.jpeg"
-import covid from "../../Assets/covid.jpeg"
-import dishwash from "../../Assets/dishwash.jpeg"
-import floor from "../../Assets/floor.jpeg"
-import mouveout from "../../Assets/mouveout.jpeg"
-import residence from "../../Assets/residence.png"
+import Janitory from "../../Assets/group1.svg";
+import green from "../../Assets/group2.svg";
+import carpet from "../../Assets/group3.svg";
 import { HashLink as Link } from "react-router-hash-link";
 
 //styled
@@ -26,9 +18,8 @@ import {
   SessionHeader,
   SessionName,
   SessionsTitle,
-  SessionDescription
+  SessionDescription,
 } from "../Testimonial/TestimonialStyle";
-
 
 const WhySection = () => {
   return (
@@ -36,15 +27,39 @@ const WhySection = () => {
       <SessionsTitle> 👍 OUR SERVICES</SessionsTitle>
       <SessionHeader>We provide the following services</SessionHeader>
       <SessionDescription>
-      For offices, entrances, reception areas, hallways, conference rooms, break rooms, training rooms, rest rooms, stairways, computer rooms, etc.
+        For offices, entrances, reception areas, hallways, conference rooms,
+        break rooms, training rooms, rest rooms, stairways, computer rooms, etc.
+        <br />
+        <span style={{ fontSize: 14, color: "green" }}>
+          *Commercial offices and properties include and are not limited to
+          Office Buildings and Suites, Schools and daycareFacilities, Gyms and
+          Recreationa Facilities, Health Care and Medical Offices, Shopping
+          Centers, Baks and Credit Unions, Industrial Complexes and
+          Constructions and Warehouses
+        </span>
       </SessionDescription>
       <ServiceWrapper>
         <ServiceWrapperItem>
-        <ServiceWrapperImage>
-              <img src={Janitory} alt="janitorial service"/>
+          <ServiceWrapperImage>
+            <img src={Janitory} alt="janitorial service" />
           </ServiceWrapperImage>
-          <SessionName style={{color:"white", marginBottom:16}}>Janitorial Service</SessionName>
-          
+          <SessionName style={{ color: "white", marginBottom: 16 }}>
+            Home Cleaning
+          </SessionName>
+
+          <ServiceWrapperDes>
+            Our friendly, professional Green Home cleaning service will leave
+            your home looking, smelling, and feeling bright and fresh after
+            every visit with non-toxic, super-effective cleaning supplies work.
+          </ServiceWrapperDes>
+        </ServiceWrapperItem>
+        <ServiceWrapperItem>
+          <ServiceWrapperImage>
+            <img src={green} alt="green service" />
+          </ServiceWrapperImage>
+          <SessionName style={{ color: "white", marginBottom: 16 }}>
+            Office Cleaning
+          </SessionName>
           <ServiceWrapperDes>
             We're ready to provide a regular cleaning tasks that keep your
             business looking great on a regular basis. Whether you need nightly
@@ -54,20 +69,11 @@ const WhySection = () => {
         </ServiceWrapperItem>
         <ServiceWrapperItem>
           <ServiceWrapperImage>
-          <img src={green} alt="green service"/>
+            <img src={carpet} alt="green service" />
           </ServiceWrapperImage>
-          <SessionName style={{color:"white", marginBottom:16}}>Green Cleaning</SessionName>
-          <ServiceWrapperDes>
-            Our friendly, professional Green Home cleaning service will leave
-            your home looking, smelling, and feeling bright and fresh after
-            every visit with non-toxic, super-effective cleaning supplies work.
-          </ServiceWrapperDes>
-        </ServiceWrapperItem>
-        <ServiceWrapperItem>
-          <ServiceWrapperImage>
-          <img src={carpet} alt="green service"/>
-          </ServiceWrapperImage>
-          <SessionName style={{color:"white", marginBottom:16}}>Carpet Cleaning</SessionName>
+          <SessionName style={{ color: "white", marginBottom: 16 }}>
+            Carpet Cleaning
+          </SessionName>
 
           <ServiceWrapperDes>
             We take pride and satisfaction in cleaning your carpets as good as
@@ -76,11 +82,14 @@ const WhySection = () => {
             castle and you should be treated as such.
           </ServiceWrapperDes>
         </ServiceWrapperItem>
-
       </ServiceWrapper>
-      <Link to="#contact" className="quotelinks quotecollinks quote quotemargin">
-          Get a quote
-        </Link>    </ServiceSessionsContainer>
+      <Link
+        to="#contact"
+        className="quotelinks quotecollinks quote quotemargin"
+      >
+        Get a quote
+      </Link>{" "}
+    </ServiceSessionsContainer>
   );
 };
 

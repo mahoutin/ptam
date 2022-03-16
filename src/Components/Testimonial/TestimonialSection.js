@@ -38,16 +38,16 @@ const TestimonialSection = () => {
               Request your service
             </SessionName>
             <TestimonialStepWrapperDes>
-              Simpli
+              Simply Tell us what service we can provide you.
             </TestimonialStepWrapperDes>
             </TestimonialStepWrapper>
             <TestimonialStepWrapper>
             <TestimonialStepWrapperTitle>2</TestimonialStepWrapperTitle>
             <SessionName>
-              Schedule your service
+              Set your schedule
             </SessionName>
             <TestimonialStepWrapperDes>
-              Simpli
+            Let's us no your availability. We are flexible.
             </TestimonialStepWrapperDes>
             </TestimonialStepWrapper>
             <TestimonialStepWrapper>
@@ -56,7 +56,7 @@ const TestimonialSection = () => {
               Sit Back and Relax
             </SessionName>
             <TestimonialStepWrapperDes>
-              Simpli
+              Enjoy the fully-equippeed proffessional cleaning experience.
             </TestimonialStepWrapperDes>
             </TestimonialStepWrapper>
            </TestimonialStepContainer>
