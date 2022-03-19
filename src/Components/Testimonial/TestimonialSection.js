@@ -25,7 +25,7 @@ const TestimonialSection = () => {
     <TestimonialSessionsContainer>
       <TestimonialSessionsContainerFirst>
         <TestimonialSessionsContainerDes>
-          <SessionsTitle>✊ HOW WE WORKS</SessionsTitle>
+          <SessionsTitle>✊ HOW WE WORK</SessionsTitle>
           <SessionHeader>
             Some of the ways of working with Ptam cleaning
           </SessionHeader>
@@ -47,7 +47,7 @@ const TestimonialSection = () => {
               Set your schedule
             </SessionName>
             <TestimonialStepWrapperDes>
-            Let's us no your availability. We are flexible.
+            Let us know your availability. We are flexible.
             </TestimonialStepWrapperDes>
             </TestimonialStepWrapper>
             <TestimonialStepWrapper>
@@ -56,7 +56,7 @@ const TestimonialSection = () => {
               Sit Back and Relax
             </SessionName>
             <TestimonialStepWrapperDes>
-              Enjoy the fully-equippeed proffessional cleaning experience.
+              Enjoy the fully-equippeed professional cleaning experience.
             </TestimonialStepWrapperDes>
             </TestimonialStepWrapper>
            </TestimonialStepContainer>

@@ -3,7 +3,7 @@ import React from "react";
 //components
 import Janitory from "../../Assets/group1.svg";
 import green from "../../Assets/group2.svg";
-import carpet from "../../Assets/group3.svg";
+import carpet from "../../Assets/caleaning.svg";
 import { HashLink as Link } from "react-router-hash-link";
 
 //styled
@@ -34,7 +34,7 @@ const WhySection = () => {
           *Commercial offices and properties include and are not limited to
           Office Buildings and Suites, Schools and daycareFacilities, Gyms and
           Recreationa Facilities, Health Care and Medical Offices, Shopping
-          Centers, Baks and Credit Unions, Industrial Complexes and
+          Centers, Banks and Credit Unions, Industrial Complexes and
           Constructions and Warehouses
         </span>
       </SessionDescription>

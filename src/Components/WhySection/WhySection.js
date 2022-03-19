@@ -1,10 +1,7 @@
 import React from "react";
 
 //components
-import Benefit from "../../Assets/Group27.svg";
-import LocationSvg from "../../Assets/Location.svg";
-import SafeSvg from "../../Assets/ShieldDone.svg";
-import TimeSvg from "../../Assets/TimeCircle.svg";
+import Benefit from "../../Assets/benefit3.jpeg";
 import { HashLink as Link } from "react-router-hash-link";
 import { BsCheckCircleFill } from "react-icons/bs";
 //styled
@@ -44,7 +41,7 @@ const WhySection = () => {
         </WhyCheckWraper>
         <WhyCheckWraper>
         <BsCheckCircleFill style={{fontSize:24, marginRight:16}}/>
-        <div style={{fontSize:16}}>Location In Westbrook, Maine</div>
+        <div style={{fontSize:16}}>Location In Scarbourough, Maine</div>
         </WhyCheckWraper>
        <Link to="#contact" className="quotelinks quotecollinks quotecollinks2 quote">
          Get a quote

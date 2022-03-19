@@ -34,10 +34,12 @@ export const WhySessionsContainerHalf = styled.div`
   height: 100%;
   @media only screen and (min-width: 1024px) {
     width:50%;
+    
   }
 img{
-  padding-top: 20px;
+  padding-bottom: 20px;
   width:60%;
+  
  
 }
  
