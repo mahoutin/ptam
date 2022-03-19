@@ -26,8 +26,7 @@ const ContactContent = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        console.log(form);
-        emailjs.sendForm('service_n8hfhss', 'template_ekcnicd', formData.current, 'user_JcaUqMMS64g6ZnvCP6eC3')
+        emailjs.sendForm('service_0zahw17', 'template_wpfx77p', formData.current, '_268eLDgjL-z35-ZC')
         .then((result) => {
             setSendMsg(true);
             setForm(init)
@@ -86,7 +85,7 @@ const ContactContent = () => {
                 />
 
                 <div className="selectdiv">
-                <label for="services">What service would you like to get a quote for:</label>
+                <label htmlFor="services">What service would you like to get a quote for:</label>
                 <select name="request_service" id="services" onChange={e => setForm({...form, service: e.target.value})} >
                   <option value="Janitorial Service">Janitorial Service</option>
                   <option value="Green Cleaning">Green Cleaning</option>
